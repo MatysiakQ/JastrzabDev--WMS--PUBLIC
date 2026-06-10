@@ -136,8 +136,8 @@ This repository serves as a showcase of the technologies, architecture, and engi
 
 Adam Jastrzębski
 
-[GitHub Badge]
+[![GitHub](https://img.shields.io/badge/GitHub-MatysiakQ-181717?style=for-the-badge&logo=github)](https://github.com/MatysiakQ)
 
-[LinkedIn Badge]
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Adam_Jastrzębski-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/adamjastrzebski/) 
 
-[Portfolio Badge]
+[![Portfolio](https://img.shields.io/badge/Portfolio-adamjastrzebski.bio-4CAF50?style=for-the-badge&logo=googlechrome)](https://adamjastrzebski.bio/)
