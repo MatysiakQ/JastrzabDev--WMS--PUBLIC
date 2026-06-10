@@ -29,9 +29,9 @@ The project focuses on reliability, data consistency, role-based access control,
 ---
 ## Project Gallery
 
-### Dashboard
+### Login Panel
 
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](screenshots/login.png)
 
 ### Inventory Management
 
