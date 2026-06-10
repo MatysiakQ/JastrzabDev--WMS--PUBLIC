@@ -27,7 +27,25 @@ The project focuses on reliability, data consistency, role-based access control,
 **Commercial Business Application**
 
 ---
+## Project Gallery
 
+### Dashboard
+
+![Dashboard](screenshots/dashboard.png)
+
+### Inventory Management
+
+![Inventory](screenshots/inventory.png)
+
+### Warehouse Operations
+
+![Operations](screenshots/operations.png)
+
+### Stock Reservations
+
+![Reservations](screenshots/reservations.png)
+
+---
 ## Core Functional Areas
 
 ### Inventory Management
