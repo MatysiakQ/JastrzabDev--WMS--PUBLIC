@@ -1,14 +1,15 @@
 <div align="center">
 
 ![Commercial Project](https://img.shields.io/badge/Commercial-Business_System-orange?style=for-the-badge)
-![Java](https://img.shields.io/badge/Java-21-red?style=for-the-badge)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-Backend-6DB33F?style=for-the-badge)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-4169E1?style=for-the-badge)
-![JWT](https://img.shields.io/badge/JWT-Authentication-black?style=for-the-badge)
+![Java](https://img.shields.io/badge/Java-21-red?style=for-the-badge&logo=openjdk)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-Backend-6DB33F?style=for-the-badge&logo=springboot)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-4169E1?style=for-the-badge&logo=postgresql)
+![JWT](https://img.shields.io/badge/JWT-Authentication-black?style=for-the-badge&logo=jsonwebtokens)
+![Docker](https://img.shields.io/badge/Docker-Containerization-2496ED?style=for-the-badge&logo=docker)
 
 ### Commercial Warehouse Management Platform
 
-Enterprise-oriented inventory and warehouse management system focused on stock control, reservation workflows, and operational efficiency.
+A business application for inventory tracking, stock reservations, warehouse operations and user management.
 
 </div>
 
@@ -16,17 +17,18 @@ Enterprise-oriented inventory and warehouse management system focused on stock c
 
 ## Overview
 
-Warehouse Management System (WMS) is a commercial business application designed to support inventory tracking, stock reservation workflows, and warehouse operations.
+Warehouse Management System (WMS) is a commercial application designed to support inventory tracking, stock reservation workflows and daily warehouse operations.
 
-The project focuses on reliability, data consistency, role-based access control, and efficient management of inventory-related processes.
+The source code is private because of commercial agreements and intellectual property considerations. This public repository documents the project, presents selected screenshots and lists the technologies used in the implementation.
 
 ---
 
 ## Project Type
 
-**Commercial Business Application**
+**Commercial business application — source code private**
 
 ---
+
 ## Project Gallery
 
 ### Login Panel
@@ -46,6 +48,7 @@ The project focuses on reliability, data consistency, role-based access control,
 ![Reservations](screenshots/reservations.png)
 
 ---
+
 ## Core Functional Areas
 
 ### Inventory Management
@@ -79,12 +82,15 @@ The project focuses on reliability, data consistency, role-based access control,
 
 ## Technology Stack
 
+The following technologies were used in the private implementation of the system:
+
 ### Backend
 
 - Java 21
 - Spring Boot
 - Spring Data JPA
 - Hibernate
+- REST API
 
 ### Database
 
@@ -93,7 +99,8 @@ The project focuses on reliability, data consistency, role-based access control,
 ### Security
 
 - Spring Security
-- JWT Authentication
+- JWT authentication
+- Role-based access control
 
 ### Infrastructure
 
@@ -105,48 +112,27 @@ The project focuses on reliability, data consistency, role-based access control,
 
 ### Concurrency Management
 
-Inventory operations utilize optimistic locking mechanisms to prevent conflicting stock modifications during concurrent transactions.
+Inventory operations use optimistic locking to help prevent conflicting stock modifications during concurrent transactions.
 
 ### Transactional Workflows
 
-Business operations are executed within transactional boundaries to maintain data consistency across inventory processes.
+Business operations are executed within transactional boundaries to maintain consistency during inventory, reservation and order processes.
 
 ### REST API Architecture
 
 The backend exposes structured REST endpoints for warehouse operations and inventory management.
 
-### Security Layer
-
-JWT-based authentication and role-based authorization protect business-critical operations.
-
 ### Data Integrity
 
-Inventory workflows are designed to preserve stock consistency during reservation and order processing operations.
-
----
-
-## Engineering Focus
-
-This project demonstrates experience with:
-
-- Enterprise backend development
-- REST API design
-- Spring Boot ecosystem
-- Database-driven applications
-- Transaction management
-- Concurrent data processing
-- Authentication and authorization
-- Business process implementation
-- Containerized deployment
-- Production-oriented backend architecture
+Inventory workflows are designed to preserve stock consistency during reservations and order processing.
 
 ---
 
 ## Source Code Availability
 
-Source code is private due to commercial agreements and intellectual property considerations.
+The source code is not publicly available because this is a commercial project.
 
-This repository serves as a showcase of the technologies, architecture, and engineering practices used throughout the project.
+This repository is a project showcase containing documentation, screenshots and information about the implementation stack. The README should not be interpreted as a copy of the private source code.
 
 ---
 
@@ -156,6 +142,6 @@ Adam Jastrzębski
 
 [![GitHub](https://img.shields.io/badge/GitHub-MatysiakQ-181717?style=for-the-badge&logo=github)](https://github.com/MatysiakQ)
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Adam_Jastrzębski-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/adamjastrzebski/) 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Adam_Jastrzębski-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/adamjastrzebski/)
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-adamjastrzebski.bio-4CAF50?style=for-the-badge&logo=googlechrome)](https://adamjastrzebski.bio/)
